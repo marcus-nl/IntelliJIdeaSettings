@@ -12,8 +12,12 @@
   <action id="EditorSelectWord" />
   <action id="EditorUnSelectWord" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FindInPath" />
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="Print" />
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
 </keymap>
