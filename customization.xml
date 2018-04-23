@@ -1,0 +1,16 @@
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="FindInPath" is_action="true" action_type="1" position="7">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ReplaceInPath" is_action="true" action_type="1" position="8">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <action id="ReplaceInPath" icon="$USER_HOME$/Pictures/icons/find.png" />
+    <action id="FindInPath" icon="$USER_HOME$/Pictures/icons/findPlain.png" />
+  </component>
+</application>
