@@ -1,0 +1,6 @@
+<application>
+  <component name="CodeInsightSettings">
+    <EXCLUDED_PACKAGE NAME="" />
+    <EXCLUDED_PACKAGE NAME="sun.java2d" />
+  </component>
+</application>
