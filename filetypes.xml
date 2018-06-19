@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="jsonp" type="JavaScript" />
       <mapping ext="graphqls" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
