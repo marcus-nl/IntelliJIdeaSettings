@@ -5,6 +5,7 @@
       <blacklist language="Scala">
         <added pattern="com.xlrit.gears.generator.DependsResolverTest.normalized(ss)" />
         <added pattern="com.xlrit.gears.generator.DK.DK_Base.DK_Base(name,arrow)" />
+        <added pattern="org.scalatest.FunSuiteLike.test(testName,testTags,testFun,pos)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
