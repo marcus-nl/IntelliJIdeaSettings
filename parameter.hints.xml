@@ -6,6 +6,7 @@
         <added pattern="com.xlrit.gears.generator.DependsResolverTest.normalized(ss)" />
         <added pattern="com.xlrit.gears.generator.DK.DK_Base.DK_Base(name,arrow)" />
         <added pattern="org.scalatest.FunSuiteLike.test(testName,testTags,testFun,pos)" />
+        <added pattern="com.xlrit.gears.generator.GearsLexerTest.verify(input,expected)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
