@@ -8,6 +8,7 @@
         <added pattern="org.scalatest.FunSuiteLike.test(testName,testTags,testFun,pos)" />
         <added pattern="com.xlrit.gears.generator.GearsLexerTest.verify(input,expected)" />
         <added pattern="com.xlrit.gears.generator.GearsScannerTest.verify(input,expected)" />
+        <added pattern="com.xlrit.gears.generator.test.ParserHelper.parse(production,input)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
