@@ -5,4 +5,7 @@
     <EXCLUDED_PACKAGE NAME="jdk.nashorn" />
     <EXCLUDED_PACKAGE NAME="sun.java2d" />
   </component>
+  <component name="DaemonCodeAnalyzerSettings">
+    <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="false" />
+  </component>
 </application>
