@@ -3,6 +3,7 @@
     <EXCLUDED_PACKAGE NAME="" />
     <EXCLUDED_PACKAGE NAME="com.sun" />
     <EXCLUDED_PACKAGE NAME="com.sun.corba" />
+    <EXCLUDED_PACKAGE NAME="java.beans" />
     <EXCLUDED_PACKAGE NAME="javax.swing" />
     <EXCLUDED_PACKAGE NAME="jdk.internal" />
     <EXCLUDED_PACKAGE NAME="jdk.nashorn" />
