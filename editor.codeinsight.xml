@@ -1,6 +1,7 @@
 <application>
   <component name="CodeInsightSettings">
     <EXCLUDED_PACKAGE NAME="" />
+    <EXCLUDED_PACKAGE NAME="ch.qos.logback.core.joran" />
     <EXCLUDED_PACKAGE NAME="com.sun" />
     <EXCLUDED_PACKAGE NAME="com.sun.corba" />
     <EXCLUDED_PACKAGE NAME="java.beans" />
