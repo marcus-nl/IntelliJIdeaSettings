@@ -12,6 +12,7 @@
         <added pattern="com.xlrit.gears.generator.GearsParser.ckw(name)" />
         <added pattern="com.xlrit.gears.generator.DependsResolverTest.resolveDepsForResult(input)" />
         <added pattern="scalax.collection.GraphTraversal.FluentProperties.withMaxDepth(maxDepth)" />
+        <added pattern="com.xlrit.gears.generator.depends.DependsResolverTest.normalized(ss)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
