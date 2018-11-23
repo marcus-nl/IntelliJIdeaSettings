@@ -13,6 +13,7 @@
         <added pattern="com.xlrit.gears.generator.DependsResolverTest.resolveDepsForResult(input)" />
         <added pattern="scalax.collection.GraphTraversal.FluentProperties.withMaxDepth(maxDepth)" />
         <added pattern="com.xlrit.gears.generator.depends.DependsResolverTest.normalized(ss)" />
+        <added pattern="org.scalatest.FunSuiteLike.ignore(testName,testTags,testFun,pos)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
