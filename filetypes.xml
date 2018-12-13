@@ -4,6 +4,7 @@
       <mapping ext="klib" type="ARCHIVE" />
       <mapping ext="jsonp" type="JavaScript" />
       <mapping ext="graphqls" type="PLAIN_TEXT" />
+      <mapping ext="sn" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
