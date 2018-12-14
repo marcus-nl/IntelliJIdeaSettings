@@ -14,6 +14,7 @@
         <added pattern="scalax.collection.GraphTraversal.FluentProperties.withMaxDepth(maxDepth)" />
         <added pattern="com.xlrit.gears.generator.depends.DependsResolverTest.normalized(ss)" />
         <added pattern="org.scalatest.FunSuiteLike.ignore(testName,testTags,testFun,pos)" />
+        <added pattern="org.singlespaced.d3js.d3.select(selector)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
