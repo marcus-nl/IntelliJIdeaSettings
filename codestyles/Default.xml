@@ -24,6 +24,10 @@
       </value>
     </option>
   </JavaCodeStyleSettings>
+  <ScalaCodeStyleSettings>
+    <option name="TYPE_ANNOTATION_PUBLIC_MEMBER" value="false" />
+    <option name="TYPE_ANNOTATION_PROTECTED_MEMBER" value="false" />
+  </ScalaCodeStyleSettings>
   <codeStyleSettings language="HTML">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
