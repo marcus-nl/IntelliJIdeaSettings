@@ -19,6 +19,7 @@
         <added pattern="(name, value)" />
         <added pattern="com.xlrit.gears.generator.design.ProcessDesignerTest.parseVerification(input)" />
         <added pattern="com.xlrit.gears.generator.design.verification.Verification.Verification(name,attrs)" />
+        <added pattern="makeBranch(step,condition)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
