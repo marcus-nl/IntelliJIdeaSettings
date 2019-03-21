@@ -1,4 +1,7 @@
 <keymap version="1" name="Marcus (based on Eclipse)" parent="Eclipse">
+  <action id="Activatesbt-shell-toolwindowToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl back_quote" />
+  </action>
   <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -29,6 +32,7 @@
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="Print" />
+  <action id="QuickChangeScheme" />
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
