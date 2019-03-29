@@ -22,6 +22,9 @@
         <added pattern="makeBranch(step,condition)" />
         <added pattern="com.xlrit.gears.generator.genjava.JavaStepExporter.printlnStmt(line)" />
         <added pattern="com.xlrit.gears.generator.emit.bpmn.BpmnConverter.BpmnNameMapping.getNodeId(step,category,prefix)" />
+        <added pattern="com.xlrit.gears.generator.BasicType.BasicType(name,ref)" />
+        <added pattern="com.xlrit.gears.generator.NumericType.NumericType(name,ref)" />
+        <added pattern="com.xlrit.gears.generator.Type.Type(name,ref)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
