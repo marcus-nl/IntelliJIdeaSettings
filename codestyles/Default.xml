@@ -27,6 +27,7 @@
   <ScalaCodeStyleSettings>
     <option name="TYPE_ANNOTATION_PUBLIC_MEMBER" value="false" />
     <option name="TYPE_ANNOTATION_PROTECTED_MEMBER" value="false" />
+    <option name="TYPE_ANNOTATION_IMPLICIT_MODIFIER" value="false" />
   </ScalaCodeStyleSettings>
   <codeStyleSettings language="HTML">
     <indentOptions>
