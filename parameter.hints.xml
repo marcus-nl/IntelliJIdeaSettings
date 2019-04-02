@@ -25,6 +25,7 @@
         <added pattern="com.xlrit.gears.generator.BasicType.BasicType(name,ref)" />
         <added pattern="com.xlrit.gears.generator.NumericType.NumericType(name,ref)" />
         <added pattern="com.xlrit.gears.generator.Type.Type(name,ref)" />
+        <added pattern="com.xlrit.gears.generator.test.BaseSuite.test(testName,testTags,testFun,pos)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
