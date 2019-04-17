@@ -30,6 +30,9 @@
         <added pattern="com.xlrit.gears.generator.parser.GearsParser.ckw(name,token)" />
         <added pattern="com.xlrit.gears.generator.emit.JavaPrinter.Fragment.join(sep)" />
         <added pattern="com.xlrit.gears.generator.emit.JavaPrinter.Fragment.maybePrefix(str)" />
+        <added pattern="com.xlrit.gears.generator.emit.JavaPrinter.Fragment.maybePrefix(prefix)" />
+        <added pattern="com.xlrit.gears.generator.emit.JavaPrinter.Fragment.maybeSurround(left,right)" />
+        <added pattern="com.xlrit.gears.generator.emit.JavaPrinter.Fragment.surround(left,right)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
