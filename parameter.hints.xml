@@ -28,6 +28,8 @@
         <added pattern="com.xlrit.gears.generator.test.BaseSuite.test(testName,testTags,testFun,pos)" />
         <added pattern="com.xlrit.gears.generator.emit.JavaBlockConverter.commented(comment,statements)" />
         <added pattern="com.xlrit.gears.generator.parser.GearsParser.ckw(name,token)" />
+        <added pattern="com.xlrit.gears.generator.emit.JavaPrinter.Fragment.join(sep)" />
+        <added pattern="com.xlrit.gears.generator.emit.JavaPrinter.Fragment.maybePrefix(str)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
