@@ -33,6 +33,7 @@
         <added pattern="com.xlrit.gears.generator.emit.JavaPrinter.Fragment.maybePrefix(prefix)" />
         <added pattern="com.xlrit.gears.generator.emit.JavaPrinter.Fragment.maybeSurround(left,right)" />
         <added pattern="com.xlrit.gears.generator.emit.JavaPrinter.Fragment.surround(left,right)" />
+        <added pattern="com.xlrit.gears.generator.emit.fmt.Fragment.join(sep)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
