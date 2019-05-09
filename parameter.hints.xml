@@ -30,6 +30,7 @@
         <added pattern="com.xlrit.gears.generator.parser.GearsParser.ckw(name,token)" />
         <added pattern="com.xlrit.gears.generator.emit.fmt.*" />
         <added pattern="com.xlrit.gears.generator.util.OptionEnhancements.RichOption.getOrError(msg)" />
+        <added pattern="com.xlrit.gears.generator.emit.JavaExprTranslator.todo(description)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
