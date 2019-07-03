@@ -1,7 +1,9 @@
 <application>
   <component name="ParameterNameHintsSettings">
     <blacklists>
-      <blacklist language="Java" />
+      <blacklist language="Java">
+        <added pattern="org.jboss.shrinkwrap.resolver.api.ResolveStage.resolve(canonicalForms)" />
+      </blacklist>
       <blacklist language="Scala">
         <added pattern="com.xlrit.gears.generator.DependsResolverTest.normalized(ss)" />
         <added pattern="com.xlrit.gears.generator.DK.DK_Base.DK_Base(name,arrow)" />
