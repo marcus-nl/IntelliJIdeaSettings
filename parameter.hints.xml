@@ -3,6 +3,7 @@
     <blacklists>
       <blacklist language="Java">
         <added pattern="org.jboss.shrinkwrap.resolver.api.ResolveStage.resolve(canonicalForms)" />
+        <added pattern="com.xlrit.gears.engine.graphql.GraphQLClient.invoke(s)" />
       </blacklist>
       <blacklist language="Scala">
         <added pattern="com.xlrit.gears.generator.DependsResolverTest.normalized(ss)" />
