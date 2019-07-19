@@ -16,6 +16,9 @@
   <action id="EditorSelectWord" />
   <action id="EditorUnSelectWord" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
   <action id="FindInPath" />
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="f1" />
@@ -33,13 +36,14 @@
   </action>
   <action id="Print" />
   <action id="QuickChangeScheme" />
-  <action id="ReplaceInPath">
+  <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
+  <action id="TodoViewGroupByFlattenPackage" />
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="f11" />
   </action>
