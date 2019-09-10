@@ -35,6 +35,7 @@
         <added pattern="com.xlrit.gears.generator.emit.fmt.*" />
         <added pattern="com.xlrit.gears.generator.util.OptionEnhancements.RichOption.getOrError(msg)" />
         <added pattern="com.xlrit.gears.generator.emit.JavaExprTranslator.todo(description)" />
+        <added pattern="com.xlrit.gears.generator.trans.Indexer2.typedTarget(name,typ)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
