@@ -43,6 +43,9 @@
         <added pattern="com.xlrit.gears.generator.emit.JavaExprTranslatorTest.translateCompr(input,expectation)" />
         <added pattern="com.xlrit.gears.generator.test.BaseSuite.matchCode(pattern)" />
         <added pattern="com.xlrit.gears.generator.emit.ComprehensionTest.verifyTranslation(input,expCompr,expJava)" />
+        <added pattern="java.lang.String.replaceAll(regex,replacement)" />
+        <added pattern="java.lang.String.replace(target,replacement)" />
+        <added pattern="java.lang.String.replaceFirst(regex,replacement)" />
       </blacklist>
       <blacklist language="JavaScript" />
       <blacklist language="Groovy" />
