@@ -1,11 +1,13 @@
 <application>
   <component name="ParameterNameHintsSettings">
     <blacklists>
+      <blacklist language="TypeScript" />
       <blacklist language="Java">
         <added pattern="org.jboss.shrinkwrap.resolver.api.ResolveStage.resolve(canonicalForms)" />
         <added pattern="com.xlrit.gears.engine.graphql.GraphQLClient.invoke(s)" />
         <added pattern="com.xlrit.gears.engine.graphql.GraphQLClient.invoke(preQuery,vars)" />
       </blacklist>
+      <blacklist language="Angular HTML Template" />
       <blacklist language="Scala">
         <added pattern="com.xlrit.gears.generator.DependsResolverTest.normalized(ss)" />
         <added pattern="com.xlrit.gears.generator.DK.DK_Base.DK_Base(name,arrow)" />
@@ -37,12 +39,14 @@
         <added pattern="com.xlrit.gears.generator.emit.JavaExprTranslator.todo(description)" />
         <added pattern="com.xlrit.gears.generator.trans.Indexer2.typedTarget(name,typ)" />
         <added pattern="com.xlrit.gears.generator.emit.JavaExprTranslatorTest.translate(input)" />
-        <added pattern="com.xlrit.gears.generator.emit.OptimizerTest.matchComprehension(pattern)" />
         <added pattern="com.xlrit.gears.generator.emit.JavaExprTranslator.RichExpression.call(name,params)" />
         <added pattern="com.xlrit.gears.generator.emit.JavaExprTranslatorTest.translateCompr(input,expectation)" />
+        <added pattern="com.xlrit.gears.generator.test.BaseSuite.matchCode(pattern)" />
       </blacklist>
+      <blacklist language="JavaScript" />
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
+      <blacklist language="SQL" />
     </blacklists>
   </component>
 </application>
