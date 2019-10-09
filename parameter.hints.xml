@@ -39,6 +39,7 @@
         <added pattern="com.xlrit.gears.generator.emit.JavaExprTranslatorTest.translate(input)" />
         <added pattern="com.xlrit.gears.generator.emit.OptimizerTest.matchComprehension(pattern)" />
         <added pattern="com.xlrit.gears.generator.emit.JavaExprTranslator.RichExpression.call(name,params)" />
+        <added pattern="com.xlrit.gears.generator.emit.JavaExprTranslatorTest.translateCompr(input,expectation)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
