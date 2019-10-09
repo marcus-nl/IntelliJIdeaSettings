@@ -42,6 +42,7 @@
         <added pattern="com.xlrit.gears.generator.emit.JavaExprTranslator.RichExpression.call(name,params)" />
         <added pattern="com.xlrit.gears.generator.emit.JavaExprTranslatorTest.translateCompr(input,expectation)" />
         <added pattern="com.xlrit.gears.generator.test.BaseSuite.matchCode(pattern)" />
+        <added pattern="com.xlrit.gears.generator.emit.ComprehensionTest.verifyTranslation(input,expCompr,expJava)" />
       </blacklist>
       <blacklist language="JavaScript" />
       <blacklist language="Groovy" />
