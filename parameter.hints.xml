@@ -6,6 +6,7 @@
         <added pattern="org.jboss.shrinkwrap.resolver.api.ResolveStage.resolve(canonicalForms)" />
         <added pattern="com.xlrit.gears.engine.graphql.GraphQLClient.invoke(s)" />
         <added pattern="com.xlrit.gears.engine.graphql.GraphQLClient.invoke(preQuery,vars)" />
+        <added pattern="com.xlrit.gears.engine.graphql.GraphQLClient.invoke(query)" />
       </blacklist>
       <blacklist language="Angular HTML Template" />
       <blacklist language="Scala">
