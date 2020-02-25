@@ -48,6 +48,7 @@
         <added pattern="java.lang.String.replace(target,replacement)" />
         <added pattern="java.lang.String.replaceFirst(regex,replacement)" />
         <added pattern="com.xlrit.gears.generator.depends.DependsResolverTest.verifyDependencyGraph(specStr,verificationStr,pos)" />
+        <added pattern="com.xlrit.gears.generator.design.designer.BlockDesigner.export(title,g)" />
       </blacklist>
       <blacklist language="JavaScript" />
       <blacklist language="Groovy" />
