@@ -2,5 +2,6 @@
   <component name="ExternalResourceManagerImpl">
     <resource url="http://java.sun.com/xml/ns/javaee" location="C:/Java/xsd/beans_1_0.xsd" />
     <resource url="http://maven.apache.org/ASSEMBLY/2.0.0" location="$USER_HOME$/.IntelliJIdea2019.1/system/extResources/a7faf726_assembly-2.0.0.xsd" />
+    <resource url="urn:jboss:module:1.0" location="C:/Java/xsd/jboss-modules/module-1_0.xsd" />
   </component>
 </application>
