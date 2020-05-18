@@ -6,10 +6,14 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="Compile" />
   <action id="Console.TableResult.ColumnsList">
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="ContextHelp" />
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f9" />
+  </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
