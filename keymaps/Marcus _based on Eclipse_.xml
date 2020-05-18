@@ -6,6 +6,9 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="Console.TableResult.ColumnsList">
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
   <action id="ContextHelp" />
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="shift alt up" />
@@ -19,12 +22,22 @@
   </action>
   <action id="EditorUnSelectWord" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="FindInPath" />
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="f1" />
+  </action>
+  <action id="GotoTypeDeclaration">
+    <mouse-shortcut keystroke="shift control button1" />
+    <keyboard-shortcut first-keystroke="ctrl f3" />
   </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="alt down" />
@@ -49,5 +62,8 @@
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="UML.ShowStructure">
+    <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
 </keymap>
