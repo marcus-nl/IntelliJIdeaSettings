@@ -8,6 +8,7 @@
         <added pattern="com.xlrit.gears.engine.graphql.GraphQLClient.invoke(preQuery,vars)" />
         <added pattern="com.xlrit.gears.engine.graphql.GraphQLClient.invoke(query)" />
         <added pattern="com.client.drivertest.Case1Test.formValues(keysAndValues)" />
+        <added pattern="com.xlrit.gears.test.BaseArquillianTest.formValues(keyAndValues)" />
       </blacklist>
       <blacklist language="Angular HTML Template" />
       <blacklist language="Scala">
