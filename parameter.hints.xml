@@ -52,6 +52,7 @@
         <added pattern="com.xlrit.gears.generator.depends.DependsResolverTest.verifyDependencyGraph(specStr,verificationStr,pos)" />
         <added pattern="com.xlrit.gears.generator.design.designer.BlockDesigner.export(title,g)" />
         <added pattern="com.xlrit.gears.generator.Problem.info(message,subject)" />
+        <added pattern="com.xlrit.gears.generator.Problem.error(message,subject)" />
       </blacklist>
       <blacklist language="JavaScript" />
       <blacklist language="Groovy" />
