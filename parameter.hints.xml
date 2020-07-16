@@ -53,6 +53,8 @@
         <added pattern="com.xlrit.gears.generator.design.designer.BlockDesigner.export(title,g)" />
         <added pattern="com.xlrit.gears.generator.Problem.info(message,subject)" />
         <added pattern="com.xlrit.gears.generator.Problem.error(message,subject)" />
+        <added pattern="com.xlrit.gears.generator.ProblemLogging.errorMessage(message,subject)" />
+        <added pattern="com.xlrit.gears.generator.design.designer.BlockDesigner.export(exportTitle,blockGraph)" />
       </blacklist>
       <blacklist language="JavaScript" />
       <blacklist language="Groovy" />
