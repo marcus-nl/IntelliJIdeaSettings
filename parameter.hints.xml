@@ -12,24 +12,24 @@
       </blacklist>
       <blacklist language="Angular HTML Template" />
       <blacklist language="Scala">
-        <added pattern="com.xlrit.gears.generator.DependsResolverTest.normalized(ss)" />
-        <added pattern="com.xlrit.gears.generator.DK.DK_Base.DK_Base(name,arrow)" />
+        <added pattern="(name)" />
+        <added pattern="(name, value)" />
+        <added pattern="java.lang.String.replaceAll(regex,replacement)" />
+        <added pattern="java.lang.String.replace(target,replacement)" />
+        <added pattern="java.lang.String.replaceFirst(regex,replacement)" />
         <added pattern="org.scalatest.FunSuiteLike.test(testName,testTags,testFun,pos)" />
+        <added pattern="org.scalatest.FunSuiteLike.ignore(testName,testTags,testFun,pos)" />
+        <added pattern="scalax.collection.GraphTraversal.FluentProperties.withMaxDepth(maxDepth)" />
+        <added pattern="com.xlrit.gears.generator.DependsResolverTest.normalized(ss)" />
         <added pattern="com.xlrit.gears.generator.GearsLexerTest.verify(input,expected)" />
         <added pattern="com.xlrit.gears.generator.GearsScannerTest.verify(input,expected)" />
         <added pattern="com.xlrit.gears.generator.test.ParserHelper.parse(production,input)" />
         <added pattern="com.xlrit.gears.generator.GearsParser.ckw(name)" />
         <added pattern="com.xlrit.gears.generator.DependsResolverTest.resolveDepsForResult(input)" />
-        <added pattern="scalax.collection.GraphTraversal.FluentProperties.withMaxDepth(maxDepth)" />
         <added pattern="com.xlrit.gears.generator.depends.DependsResolverTest.normalized(ss)" />
-        <added pattern="org.scalatest.FunSuiteLike.ignore(testName,testTags,testFun,pos)" />
-        <added pattern="org.singlespaced.d3js.d3.select(selector)" />
-        <added pattern="(name)" />
-        <added pattern="(name, value)" />
         <added pattern="com.xlrit.gears.generator.design.ProcessDesignerTest.parseVerification(input)" />
         <added pattern="com.xlrit.gears.generator.design.verification.Verification.Verification(name,attrs)" />
         <added pattern="makeBranch(step,condition)" />
-        <added pattern="com.xlrit.gears.generator.genjava.JavaStepExporter.printlnStmt(line)" />
         <added pattern="com.xlrit.gears.generator.emit.bpmn.BpmnConverter.BpmnNameMapping.getNodeId(step,category,prefix)" />
         <added pattern="com.xlrit.gears.generator.BasicType.BasicType(name,ref)" />
         <added pattern="com.xlrit.gears.generator.NumericType.NumericType(name,ref)" />
@@ -39,16 +39,11 @@
         <added pattern="com.xlrit.gears.generator.parser.GearsParser.ckw(name,token)" />
         <added pattern="com.xlrit.gears.generator.emit.fmt.*" />
         <added pattern="com.xlrit.gears.generator.util.OptionEnhancements.RichOption.getOrError(msg)" />
-        <added pattern="com.xlrit.gears.generator.emit.JavaExprTranslator.todo(description)" />
-        <added pattern="com.xlrit.gears.generator.trans.Indexer2.typedTarget(name,typ)" />
         <added pattern="com.xlrit.gears.generator.emit.JavaExprTranslatorTest.translate(input)" />
         <added pattern="com.xlrit.gears.generator.emit.JavaExprTranslator.RichExpression.call(name,params)" />
         <added pattern="com.xlrit.gears.generator.emit.JavaExprTranslatorTest.translateCompr(input,expectation)" />
         <added pattern="com.xlrit.gears.generator.test.BaseSuite.matchCode(pattern)" />
         <added pattern="com.xlrit.gears.generator.emit.ComprehensionTest.verifyTranslation(input,expCompr,expJava)" />
-        <added pattern="java.lang.String.replaceAll(regex,replacement)" />
-        <added pattern="java.lang.String.replace(target,replacement)" />
-        <added pattern="java.lang.String.replaceFirst(regex,replacement)" />
         <added pattern="com.xlrit.gears.generator.depends.DependsResolverTest.verifyDependencyGraph(specStr,verificationStr,pos)" />
         <added pattern="com.xlrit.gears.generator.design.designer.BlockDesigner.export(title,g)" />
         <added pattern="com.xlrit.gears.generator.Problem.info(message,subject)" />
@@ -56,6 +51,7 @@
         <added pattern="com.xlrit.gears.generator.ProblemLogging.errorMessage(message,subject)" />
         <added pattern="com.xlrit.gears.generator.design.designer.BlockDesigner.export(exportTitle,blockGraph)" />
         <added pattern="com.xlrit.gears.generator.Checks.mkDupErr(descr,category,elems)" />
+        <added pattern="com.xlrit.gears.generator.Problem.info(message,subject,pc)" />
       </blacklist>
       <blacklist language="JavaScript" />
       <blacklist language="Groovy" />
