@@ -51,7 +51,7 @@
         <added pattern="com.xlrit.gears.generator.ProblemLogging.errorMessage(message,subject)" />
         <added pattern="com.xlrit.gears.generator.design.designer.BlockDesigner.export(exportTitle,blockGraph)" />
         <added pattern="com.xlrit.gears.generator.Checks.mkDupErr(descr,category,elems)" />
-        <added pattern="com.xlrit.gears.generator.Problem.info(message,subject,pc)" />
+        <added pattern="com.xlrit.gears.generator.ProblemTest.prettyInfo(message,subject)" />
       </blacklist>
       <blacklist language="JavaScript" />
       <blacklist language="Groovy" />
